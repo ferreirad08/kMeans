@@ -9,22 +9,22 @@ Description
 
 Example
 
-  X = [[1, 2]; [1, 4]; [1, 0];[10, 2]; [10, 4]; [10, 0]];
-  Xnew = [[0, 0]; [12, 3]];
-  k = 2;
+    X = [[1, 2]; [1, 4]; [1, 0];[10, 2]; [10, 4]; [10, 0]];
+    Xnew = [[0, 0]; [12, 3]];
+    k = 2;
 
-  mdl = kMeans(k);
-  mdl = mdl.fit(X);
-  Ypred = mdl.predict(Xnew)
+    mdl = kMeans(k);
+    mdl = mdl.fit(X);
+    Ypred = mdl.predict(Xnew)
 
-  Ypred =
+    Ypred =
 
-  1
-  2
+    1
+    2
 
-  centroids = mdl.C
+    centroids = mdl.C
 
-   1 2
-  10 2
+     1 2
+    10 2
 
 See examples in the script files.
